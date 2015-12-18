@@ -49,6 +49,7 @@ function calendar() {
         if (i == thisDay)
             document.write("<span style = 'color: red;'>")
         document.write(i);
+
         if (i == thisDay)
             document.write("</span>")
         column++;
