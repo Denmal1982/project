@@ -43,6 +43,7 @@ function calendar() {
         document.write("<td width='30'>");
         column++;
     }
+
     for (i = 1; i <= nDays; i++) {
         document.write("<td width=30>");
         if (i == thisDay)
